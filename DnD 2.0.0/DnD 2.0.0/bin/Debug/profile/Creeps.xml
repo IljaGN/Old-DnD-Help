@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Creeps>
+
+<Esense>
+
+<Creep
+  Name = "Руа"
+  Type = "Человек"
+  hitm = "28"
+  hit = "26"
+  Dam = "1Д2"
+  sha = "80"
+  Arm = "5"
+  mis = "10"
+  hefm = "40"
+  inv = "1"
+  spd = "6"
+  
+  power = "11"
+  agility = "14"
+  constit = "14"
+  intell = "14"
+  will = "9"
+  charisma = "11"
+>
+
+<Ephekti>
+</Ephekti>	
+</Creep>
+</Esense>
+
+<Humanoid>
+</Humanoid>
+
+<Human>
+
+<Creep 
+  Name = "Жора"
+  Type = "Человек"
+  hitm = "28"
+  hit = "26"
+  Dam = "1Д2"
+  sha = "80"
+  Arm = "5"
+  mis = "10"
+  hefm = "40"
+  inv = "1"
+  spd = "6"
+  
+  power = "11"
+  agility = "14"
+  constit = "14"
+  intell = "14"
+  will = "9"
+  charisma = "11"
+>
+
+<Ephekti>
+</Ephekti>	
+
+<Eqip>
+</Eqip>
+
+<Inventory>
+</Inventory>
+</Creep>
+
+<Creep 
+  Name = "Жра"
+  Type = "Человек"
+  hitm = "28"
+  hit = "26"
+  Dam = "1Д2"
+  sha = "80"
+  Arm = "5"
+  mis = "10"
+  hefm = "40"
+  inv = "1"
+  spd = "6"
+  
+  power = "11"
+  agility = "14"
+  constit = "14"
+  intell = "14"
+  will = "9"
+  charisma = "11"
+>
+</Creep>
+
+<Creep 
+  Name = "Жоа"
+  Type = "Человек"
+  hitm = "28"
+  hit = "26"
+  Dam = "1Д2"
+  sha = "80"
+  Arm = "5"
+  mis = "10"
+  hefm = "40"
+  inv = "1"
+  spd = "6"
+  
+  power = "11"
+  agility = "14"
+  constit = "14"
+  intell = "14"
+  will = "9"
+  charisma = "11"
+>
+</Creep>
+
+<Creep 
+  Name = "Жо"
+  Type = "Человек"
+  hitm = "28"
+  hit = "26"
+  Dam = "1Д2"
+  sha = "80"
+  Arm = "5"
+  mis = "10"
+  hefm = "40"
+  inv = "1"
+  spd = "6"
+  
+  power = "11"
+  agility = "14"
+  constit = "14"
+  intell = "14"
+  will = "9"
+  charisma = "11"
+>
+
+<Ephekti>
+</Ephekti>	
+
+<Eqip>
+</Eqip>
+
+<Inventory>
+</Inventory>
+</Creep>
+</Human>
+</Creeps>

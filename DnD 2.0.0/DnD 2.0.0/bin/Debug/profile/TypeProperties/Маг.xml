@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Person>
+
+<Properties>
+  <P Formul = "intell*0.5+will">manm</P>
+  <P Restric = "True" Max = "manm">man</P>
+</Properties>
+
+<GroupBoxHero
+  Name = "Статы"
+  Font.Name = "Century"
+  Font.Size = "9.75f"
+  Font.Italic = "true"
+  Location = "6x6"
+  Size = "123x191"
+>
+<LD
+  Font.Name = "Century"
+  Font.Size = "12f"
+  Font.Italic = "true"
+  Location = "6x19"
+ >
+  <L Name = "man,manm">Мана:manm/man</L>
+ </LD>
+</GroupBoxHero>
+</Person>

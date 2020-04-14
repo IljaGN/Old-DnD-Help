@@ -1,0 +1,32 @@
+<Atac Name = "Àòàêîâàòü" Target = "1">
+  <o>attacker</o>
+  <o arg0 = "hit">attacked</o>
+  <hit>
+  <![CDATA[
+    if(push0 > attacked.mis)
+      "attacked.hit - push1";
+    else "end";
+  ]]>
+  </hit>
+</Atac>
+
+<Atac Name = "Ğóáèòü" Target = "3">
+  <o>attr</o>
+  <o arg0 = "hit">attd1</o>
+  <o arg0 = "arm">attd2</o>
+  <o>attd1</o>
+  
+  <hit>
+  <![CDATA[
+    if(push0 > attd1.mis)
+      "attd1.hit - push1";
+    else "end";
+  ]]>
+  </hit>
+  
+  <arm>
+  <![CDATA[
+    "end"
+  ]]>
+  </arm>
+</Atac>

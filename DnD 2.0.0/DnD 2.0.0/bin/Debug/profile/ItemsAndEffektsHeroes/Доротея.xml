@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<EandI>
+
+<Effects>
+
+<Effect
+  Name = "тест3"
+  Type = "Баф"
+  Specif = "НЕТ"
+  TimAct = "4"
+  Time = "4"
+  Visible = "True"
+  Hidden = "False"
+  Period = "True"
+  Tiki = "4,3,2,1"
+>
+
+<Options>
+  <O Key = "hit">+1</O>
+</Options>
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "тест7"
+  Type = "Баф"
+  Specif = "НЕТ"
+  TimAct = "1"
+  Time = "1"
+  Visible = "True"
+  Hidden = "False"
+  Period = "True"
+  Tiki = "1"
+>
+
+<Options>
+  <O Key = "hit">-3</O>
+</Options>
+
+<Replacement>
+</Replacement>
+</Effect>
+</Effects>
+
+<Items>
+
+<Item
+  Name = "железный нож1"
+  Type = "Оружие"
+  Specif = "НЕТ"
+  Slot = "Ладонь"
+  SltCnt = "2"
+  Staminam = "15"
+  Stamina = "15"
+  Price = "20"
+  Basesharp = "+0"
+  Countm = "1"
+  Count = "1"
+  Heft = "1"
+  Damage = "Режущий:2Д4-1&amp;Горячий:+2"
+  Crete = "2"
+>
+
+<Effects>
+</Effects>
+
+<Alternative>
+</Alternative>
+</Item>
+</Items>
+</EandI>

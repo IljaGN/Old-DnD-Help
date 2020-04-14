@@ -1,0 +1,38 @@
+C:\Users\Ilja\AppData\Local\Temporary Projects\DnD 2.0.0\bin\Debug\DnD 2.0.0.exe
+C:\Users\Ilja\AppData\Local\Temporary Projects\DnD 2.0.0\bin\Debug\DnD 2.0.0.pdb
+C:\Users\Ilja\AppData\Local\Temporary Projects\DnD 2.0.0\obj\x86\Debug\DnD_2._0._0.Form1.resources
+C:\Users\Ilja\AppData\Local\Temporary Projects\DnD 2.0.0\obj\x86\Debug\DnD_2._0._0.Properties.Resources.resources
+C:\Users\Ilja\AppData\Local\Temporary Projects\DnD 2.0.0\obj\x86\Debug\DnD 2.0.0.csproj.GenerateResource.Cache
+C:\Users\Ilja\AppData\Local\Temporary Projects\DnD 2.0.0\obj\x86\Debug\DnD 2.0.0.exe
+C:\Users\Ilja\AppData\Local\Temporary Projects\DnD 2.0.0\obj\x86\Debug\DnD 2.0.0.pdb
+C:\Users\Ilja\documents\visual studio 2010\Projects\DnD 2.0.0\DnD 2.0.0\obj\x86\Debug\DnD 2.0.0.exe
+C:\Users\Ilja\documents\visual studio 2010\Projects\DnD 2.0.0\DnD 2.0.0\obj\x86\Debug\DnD 2.0.0.pdb
+C:\Users\Ilja\documents\visual studio 2010\Projects\DnD 2.0.0\DnD 2.0.0\bin\Debug\DnD 2.0.0.exe
+C:\Users\Ilja\documents\visual studio 2010\Projects\DnD 2.0.0\DnD 2.0.0\bin\Debug\DnD 2.0.0.pdb
+C:\Users\Ilja\documents\visual studio 2010\Projects\DnD 2.0.0\DnD 2.0.0\obj\x86\Debug\DnD_2._0._0.Form1.resources
+C:\Users\Ilja\documents\visual studio 2010\Projects\DnD 2.0.0\DnD 2.0.0\obj\x86\Debug\DnD_2._0._0.Properties.Resources.resources
+C:\Users\Ilja\documents\visual studio 2010\Projects\DnD 2.0.0\DnD 2.0.0\obj\x86\Debug\DnD 2.0.0.csproj.GenerateResource.Cache
+C:\Users\Ilja\documents\visual studio 2010\Projects\DnD 2.0.0\DnD 2.0.0\obj\x86\Debug\DnD 2.0.0.csprojResolveAssemblyReference.cache
+C:\Users\Ilja\documents\visual studio 2010\Projects\DnD 2.0.0\DnD 2.0.0\bin\Debug\DnD 2.0.0.exe.config
+R:\Temporalily\Proert\DnD 2.0.0\DnD 2.0.0\bin\Debug\DnD 2.0.0.exe.config
+R:\Temporalily\Proert\DnD 2.0.0\DnD 2.0.0\obj\x86\Debug\DnD 2.0.0.exe
+R:\Temporalily\Proert\DnD 2.0.0\DnD 2.0.0\obj\x86\Debug\DnD 2.0.0.pdb
+R:\Temporalily\Proert\DnD 2.0.0\DnD 2.0.0\bin\Debug\DnD 2.0.0.exe
+R:\Temporalily\Proert\DnD 2.0.0\DnD 2.0.0\bin\Debug\DnD 2.0.0.pdb
+R:\Temporalily\Proert\DnD 2.0.0\DnD 2.0.0\obj\x86\Debug\DnD 2.0.0.csprojResolveAssemblyReference.cache
+R:\Temporalily\Proert\DnD 2.0.0\DnD 2.0.0\obj\x86\Debug\DnD_2._0._0.Form1.resources
+R:\Temporalily\Proert\DnD 2.0.0\DnD 2.0.0\obj\x86\Debug\DnD_2._0._0.Properties.Resources.resources
+R:\Temporalily\Proert\DnD 2.0.0\DnD 2.0.0\obj\x86\Debug\DnD 2.0.0.csproj.GenerateResource.Cache
+R:\Temporalily\Proert\DnD 2.0.0\DnD 2.0.0\obj\x86\Debug\DnD_2._0._0.Form2.resources
+D:\DnD 2.0.0\DnD 2.0.0\bin\Debug\DnD 2.0.0.exe.config
+D:\DnD 2.0.0\DnD 2.0.0\obj\x86\Debug\DnD 2.0.0.exe
+D:\DnD 2.0.0\DnD 2.0.0\obj\x86\Debug\DnD 2.0.0.pdb
+D:\DnD 2.0.0\DnD 2.0.0\bin\Debug\DnD 2.0.0.exe
+D:\DnD 2.0.0\DnD 2.0.0\bin\Debug\DnD 2.0.0.pdb
+D:\DnD 2.0.0\DnD 2.0.0\obj\x86\Debug\DnD 2.0.0.csprojResolveAssemblyReference.cache
+D:\DnD 2.0.0\DnD 2.0.0\obj\x86\Debug\DnD_2._0._0.Form1.resources
+D:\DnD 2.0.0\DnD 2.0.0\obj\x86\Debug\DnD_2._0._0.Form2.resources
+D:\DnD 2.0.0\DnD 2.0.0\obj\x86\Debug\DnD_2._0._0.Properties.Resources.resources
+D:\DnD 2.0.0\DnD 2.0.0\obj\x86\Debug\DnD 2.0.0.csproj.GenerateResource.Cache
+C:\Users\Ilja\Documents\Visual Studio 2010\Projects\DnD 2.0.0\DnD 2.0.0\obj\x86\Debug\DnD_2._0._0.Form2.resources
+C:\Users\Ilja\Documents\Visual Studio 2010\Projects\DnD 2.0.0\DnD 2.0.0\obj\x86\Debug\DnD_2._0._0.Form3.resources

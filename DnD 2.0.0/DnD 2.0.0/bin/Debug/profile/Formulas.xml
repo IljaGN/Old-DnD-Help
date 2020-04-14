@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Formulas>
+
+<Atac Name = "Атаковать" Target = "1">
+  <o>attacker</o>
+  <o arg0 = "hit">attacked</o>
+  <hit>
+  <![CDATA[
+    if(push0 > (100 - attacker.sha) / 5)
+      if (push0 > attacked.mis / 5)
+        "attacked.hit - push1";
+      else "end";
+    else "end";
+  ]]>
+  </hit>
+</Atac>
+
+<Atac Name = "Лечение" Target = "2">
+  <o>attr</o>
+  <o arg0 = "hit">attd</o>
+  <o>attd</o>
+  <hit>
+  <![CDATA[
+    attd.hit + 2;
+  ]]>
+  </hit>
+</Atac>
+</Formulas>

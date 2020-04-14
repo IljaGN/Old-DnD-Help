@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Tables>
+
+<Table Name = "ModDnD">
+  <s key = "1" value = "-4"/>
+  <s key = "2" value = "-4"/>
+  <s key = "3" value = "-3"/>
+  <s key = "4" value = "-3"/>
+  <s key = "5" value = "-2"/>
+  <s key = "6" value = "-2"/>
+  <s key = "7" value = "-1"/>
+  <s key = "8" value = "-1"/>
+  <s key = "9" value = "0"/>
+  <s key = "10" value = "0"/>
+  <s key = "11" value = "1"/>
+  <s key = "12" value = "1"/>
+  <s key = "13" value = "2"/>
+  <s key = "14" value = "2"/>
+  <s key = "15" value = "3"/>
+  <s key = "16" value = "3"/>
+  <s key = "17" value = "4"/>
+  <s key = "18" value = "4"/>
+  <s key = "19" value = "5"/>
+  <s key = "20" value = "5"/>
+  <s key = "21" value = "6"/>
+  <s key = "22" value = "6"/>
+  <s key = "23" value = "7"/>
+  <s key = "24" value = "7"/>
+</Table>
+</Tables>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<BaseDamage>
+  <d Type = "Режущий"/>
+  <d Type = "Колющий"/>
+  <d Type = "Дробящий"/>
+  <d Type = "Временный"/>
+  <d Type = "Шокирующий"/>
+  <d Type = "Горячий"/>
+  <d Type = "Холодный"/>
+  <d Type = "Едкий"/>
+  <d Type = "Позитивный"/>
+  <d Type = "Негативный"/>
+  <d Type = "Магия"/>
+</BaseDamage>

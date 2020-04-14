@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<EandI>
+
+<Effects>
+
+<Effect
+  Name = "стрелок"
+  Type = "дебаф"
+  Specif = "Ставится на стреляющего"
+  TimAct = "-2"
+  Time = "-2"
+  Visible = "True"
+  Hidden = "False"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "sha">-20</O>
+</Options>
+
+<Replacement>
+</Replacement>
+</Effect>
+</Effects>
+
+<Items>
+</Items>
+</EandI>

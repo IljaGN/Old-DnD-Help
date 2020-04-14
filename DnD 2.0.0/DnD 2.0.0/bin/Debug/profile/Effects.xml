@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Effects>
+
+<Buff Name = "Баф">
+
+<Effect
+  Name = "тест1"
+  Type = "баф"
+  Specif = "НЕТ"
+  Visible = "True"
+  Period = "False"
+  TimAct = "8"
+>
+</Effect>
+
+<Effect
+  Name = "тест2"
+  Type = "баф"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "sha">+5</O>
+</Options>
+</Effect>
+
+<Effect
+  Name = "тест3"
+  Visible = "True"
+  Period = "True"
+  TimAct = "4"
+>
+
+<Options>
+  <O Key = "hit">-1</O>
+</Options>
+</Effect>
+
+<Effect
+  Name = "тест4"
+  Type = "баф"
+  Specif = "НЕТ"
+  Visible = "True"
+  Period = "True"
+  TimAct = "5"
+  Tiki = "3,0"
+>
+
+<Options>
+  <O Key = "hit">-1</O>
+</Options>
+</Effect>
+
+<Effect
+  Name = "тест5"
+  Type = "баф"
+  Specif = "НЕТ"
+  Visible = "True"
+  Hidden = "False"
+  Period = "True"
+  TimAct = "5"
+  Tiki = "ink[2]t"
+>
+
+<Options>
+  <O Key = "hit">-1</O>
+</Options>
+</Effect>
+
+<Effect
+  Name = "тест6"
+  Type = "баф"
+  Specif = "НЕТ"
+  Visible = "True"
+  Hidden = "True"
+  Period = "True"
+  TimAct = "5"
+  Tiki = "ink[2]"
+>
+
+<Options>
+  <O Key = "hit">-1</O>
+</Options>
+</Effect>
+
+<Effect
+  Name = "меткость(+5)"
+  Type = "баф"
+  Specif = "НЕТ"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "sha">+5</O>
+</Options>
+
+<Replacement>
+  <r Name = "тест6"/>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "уклонение(+5)"
+  Type = "баф"
+  Specif = "НЕТ"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "mis">+5</O>
+</Options>
+
+<Replacement>
+  <r Name = "тест6" SType = "0"/>
+  <r Name = "тест5"/>
+  <r Name = "тест4" SType = "Баф"/>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "адреналин"
+  Type = "баф"
+  Specif = "+1 ур,"
+  TimAct = "4"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "hit">+3</O>
+  <O Key = "sha">+5</O>
+  <O Key = "mis">+10</O>
+  <O Key = "hefm">%+10</O>
+</Options>
+</Effect>
+
+<Effect
+  Name = "жзни(+5)"
+  Type = "баф"
+  Specif = "НЕТ"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "hit">+5</O>
+</Options>
+</Effect>
+
+<Effect
+  Name = "обезболив"
+  Type = "баф"
+  Specif = "снимает травму"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "hit">+5</O>
+</Options>
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "кофеин"
+  Type = "баф"
+  Specif = "снимает усталость"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "hit">+0</O>
+</Options>
+</Effect>
+
+<Effect
+  Name = "благославление"
+  Type = "баф"
+  Specif = "НЕТ"
+  TimAct = "3"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "arm">+15</O>
+  <O Key = "mis">+15</O>
+</Options>
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "энерг щит"
+  Type = "баф"
+  Specif = "НЕТ"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "arm">+5</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "добряника1"
+  Type = "баф"
+  Specif = "14 часов спустя 1Д6+1"
+  TimAct = "420"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "hit">+1</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "добряника2"
+  Type = "баф"
+  Specif = "14 часов спустя 2Д6+2"
+  TimAct = "420"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "hit">+2</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+</Buff>
+
+<Debuff Name = "Дебаф">
+
+<Effect
+  Name = "голов(б2)"
+  Type = "дебаф"
+  Specif = "-1,5 м перем"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "sha">%-20</O>
+  <O Key = "spd">-1</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "травма"
+  Type = "дебаф"
+  Specif = "все пров -1, ур -2"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "hit">%-0</O>
+  <O Key = "sha">%-0</O>
+  <O Key = "mis">%-0</O>
+  <O Key = "hefm">%-0</O>
+  <O Key = "spd">%-0</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "перегруз1"
+  Type = "дебаф"
+  Specif = "НЕТ"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "sha">%-10</O>
+  <O Key = "mis">%-20</O>
+  <O Key = "spd">-1</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "перегруз2"
+  Type = "дебаф"
+  Specif = "НЕТ"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "sha">%-25</O>
+  <O Key = "mis">%-50</O>
+  <O Key = "spd">-3</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "стрелок"
+  Type = "дебаф"
+  Specif = "Ставится на стреляющего"
+  TimAct = "-2"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "sha">-20</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "меткость(-5)"
+  Type = "дебаф"
+  Specif = "НЕТ"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "sha">-5</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "смерть"
+  Type = "дебаф"
+  Specif = "Ставится на того кто погиб"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "hit">+1</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "стрес1"
+  Type = "дебаф"
+  Specif = "2 больше ешь, 10% бесон. 6 часов, +2 слад сны"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "hit">+0</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "стрес2"
+  Type = "дебаф"
+  Specif = "2 больше ешь, 20% бесон. 6 часов, +4 слад сны"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "sha">-5</O>
+  <O Key = "mis">-5</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "стрес3"
+  Type = "дебаф"
+  Specif = "2 больше ешь, 30% бесон. 6 часов, +6 слад сны"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "sha">-20</O>
+  <O Key = "mis">%-20</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "стрес4"
+  Type = "дебаф"
+  Specif = "2 больше ешь, 40% бесон. 6 часов, +8 слад сны, психоз"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "sha">-40</O>
+  <O Key = "mis">%-50</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "усталость1"
+  Type = "дебаф"
+  Specif = "получ шанс: гол(б1), слаб, головкр1"
+  TimAct = "600"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "sha">-5</O>
+  <O Key = "mis">-5</O>
+  <O Key = "hefm">%-5</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "усталость2"
+  Type = "дебаф"
+  Specif = "получ шанс: гол(б1), слаб, головкр1"
+  TimAct = "360"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "sha">-10</O>
+  <O Key = "mis">-10</O>
+  <O Key = "hefm">%-15</O>
+  <O Key = "spd">-1</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "усталость3"
+  Type = "дебаф"
+  Specif = "получ шанс: гол(б1), слаб, головкр1"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "sha">-20</O>
+  <O Key = "mis">-20</O>
+  <O Key = "hefm">%-30</O>
+  <O Key = "spd">-2</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "голод"
+  Type = "дебаф"
+  Specif = "получ шанс: слаб, головкр1"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "hit">+0</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "головкр1"
+  Type = "дебаф"
+  Specif = "НЕТ"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "sha">-10</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "головкр2"
+  Type = "дебаф"
+  Specif = "НЕТ"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "sha">%-60</O>
+  <O Key = "mis">%-40</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "слабость"
+  Type = "дебаф"
+  Specif = "-1 ур, -1,5 м перем"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "hefm">%-20</O>
+  <O Key = "spd">-1</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "стан"
+  Type = "дебаф"
+  Specif = "пропускает ходы"
+  TimAct = "1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "hit">+0</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "замерз"
+  Type = "дебаф"
+  Specif = "НЕТ"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "sha">%-10</O>
+  <O Key = "mis">%-10</O>
+  <O Key = "spd">%-51</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+</Debuff>
+
+<Mixed Name = "Смешанный">
+
+<Effect
+  Name = "чума а"
+  Type = "дебаф"
+  Specif = "НЕТ"
+  TimAct = "450"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "hit">%-15</O>
+  <O Key = "sha">-5</O>
+  <O Key = "mis">-5</O>
+  <O Key = "hefm">%-20</O>
+  <O Key = "spd">-1</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "чума и"
+  Type = "дебаф"
+  Specif = "НЕТ"
+  TimAct = "180"
+  Visible = "False"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "hit">+0</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "исцеление(+3)"
+  Type = "баф"
+  Specif = "НЕТ"
+  TimAct = "3"
+  Visible = "True"
+  Period = "True"
+>
+
+<Options>
+  <O Key = "hit">+3</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "яд(-1)"
+  Type = "дебаф"
+  Specif = "НЕТ"
+  TimAct = "4"
+  Visible = "True"
+  Period = "True"
+>
+
+<Options>
+  <O Key = "hit">-1</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "яд(-4)"
+  Type = "дебаф"
+  Specif = "НЕТ"
+  TimAct = "3"
+  Visible = "True"
+  Period = "True"
+>
+
+<Options>
+  <O Key = "hit">-4</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "кровот(-1)"
+  Type = "дебаф"
+  Specif = "НЕТ"
+  TimAct = "4"
+  Visible = "True"
+  Period = "True"
+>
+
+<Options>
+  <O Key = "hit">-1</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "кровот(-4)"
+  Type = "дебаф"
+  Specif = "НЕТ"
+  TimAct = "3"
+  Visible = "True"
+  Period = "True"
+>
+
+<Options>
+  <O Key = "hit">-4</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "пьяный"
+  Type = "смеш"
+  Specif = "+2 ур"
+  TimAct = "20"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "sha">-20</O>
+  <O Key = "mis">-15</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+
+<Effect
+  Name = "пустой"
+  Type = "нет"
+  Specif = "НЕТ"
+  TimAct = "-1"
+  Visible = "True"
+  Period = "False"
+>
+
+<Options>
+  <O Key = "hit">+0</O>
+</Options>
+
+
+
+
+<Replacement>
+</Replacement>
+</Effect>
+</Mixed>
+</Effects>

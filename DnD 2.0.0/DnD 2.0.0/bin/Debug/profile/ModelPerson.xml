@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Person>
+
+<Properties>
+  <P Impact = "hefm">power</P>
+  <P Impact = "inv">agility</P>
+  <P Impact = "hefm,hitm,inv">constit</P>
+  <P>intell</P>
+  <P>will</P>
+  <P Impact = "inv">charisma</P>
+
+  <P>Name</P>
+  <P>Type</P>
+  <P>Dam</P>
+  <P>Arm</P>
+  <P>Hef</P>
+  <P Formul = "(constit+power)*2">hefm</P>
+  <P Max = "hitm">hit</P>
+  <P Formul = "constit*2">hitm</P>
+  <P>sha</P>
+  <P>mis</P>
+  <P Formul = "(agility+constit+charisma)/3">inv</P>
+  <P>spd</P>
+</Properties>
+  
+<Regulation>
+
+<Table Name = "hit" Max = "hitm">
+  <t Value = "&lt;1" SType = "2" Effect = "Безсознания" Delete = "True"/>
+  <t Value = "&lt;-8" SType = "0" Effect = "СмертСлаб-ть" Delete = "False"/>
+  <t Value = "&lt;-11" Effect = "dead"/>
+</Table>
+
+<Table Name = "Hef" Max = "hefm">
+  <t Value = "&gt;50%" Effect = "Перегруз1" Delete = "True"/>
+  <t Value = "&gt;79%" Effect = "Перегруз2"/>
+  <t Value = "&gt;100%" Effect = "Обездвижен"/>
+</Table>
+</Regulation>
+
+<Sloti>
+  <s Name = "Голова" Quantity = "1"/>
+  <s Name = "Шея"/>
+  <s Name = "Ухо"/>
+  <s Name = "Рука" Quantity = "1"/>
+  <s Name = "Запястье"/>
+  <s Name = "Палец" Quantity = "2"/>
+  <s Name = "Пояс" Quantity = "1"/>
+  <s Name = "Нога"/>
+  <s Name = "Ступня"/>
+  <s Name = "Ладонь" Quantity = "2" Master = "1" Flow = "[sha] - 15"/>
+  <s Name = "Торс"/>
+</Sloti>
+</Person>

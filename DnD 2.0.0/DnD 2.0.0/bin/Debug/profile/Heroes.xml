@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Heroes>
+
+<Hero
+  power = "15"
+  agility = "16"
+  constit = "14"
+  intell = "11"
+  will = "7"
+  charisma = "14"
+  Name = "Доротея"
+  Type = "Хоббит"
+  Dam = "1Д2"
+  Arm = "5"
+  Hef = ""
+  hefm = "58"
+  hit = "28"
+  hitm = "28"
+  sha = "90"
+  mis = "20"
+  inv = "14,6666666666667"
+  spd = "9"
+  hef = "1"
+>
+
+<Ephekti>
+  <E>тест3</E>
+  <E>тест7</E>
+</Ephekti>
+
+<Eqip>
+</Eqip>
+
+<Inventory>
+  <P>железный нож1</P>
+</Inventory>
+</Hero>
+
+<Hero
+  power = "14"
+  agility = "18"
+  constit = "14"
+  intell = "11"
+  will = "11"
+  charisma = "10"
+  Name = "Суро"
+  Type = "Эльф"
+  Dam = "1Д2"
+  Arm = "5"
+  Hef = ""
+  hefm = "56"
+  hit = "28"
+  hitm = "28"
+  sha = "90"
+  mis = "10"
+  inv = "14"
+  spd = "9"
+>
+
+<Ephekti>
+</Ephekti>
+
+<Eqip>
+</Eqip>
+
+<Inventory>
+</Inventory>
+</Hero>
+
+<Hero
+  power = "16"
+  agility = "16"
+  constit = "11"
+  intell = "6"
+  will = "11"
+  charisma = "11"
+  Name = "Астра"
+  Type = "Хоббит"
+  Dam = "1Д2"
+  Arm = "15"
+  Hef = ""
+  hefm = "54"
+  hit = "22"
+  hitm = "22"
+  sha = "90"
+  mis = "0"
+  inv = "12,6666666666667"
+  spd = "9"
+  hef = "3"
+>
+
+<Ephekti>
+  <E>стрелок</E>
+</Ephekti>
+
+<Eqip>
+  <P>лук длиный</P>
+  <P>Кожаный шлем</P>
+</Eqip>
+
+<Inventory>
+</Inventory>
+</Hero>
+
+<Hero
+  power = "14"
+  agility = "16"
+  constit = "9"
+  intell = "8"
+  will = "10"
+  charisma = "10"
+  Name = "Астрид"
+  Type = "Хоббит"
+  Dam = "1Д2"
+  Arm = "0"
+  Hef = ""
+  hefm = "46"
+  hit = "18"
+  hitm = "18"
+  sha = "90"
+  mis = "15"
+  inv = "11,6666666666667"
+  spd = "9"
+>
+
+<Ephekti>
+</Ephekti>
+
+<Eqip>
+</Eqip>
+
+<Inventory>
+</Inventory>
+</Hero>
+
+<Hero
+  power = "10"
+  agility = "13"
+  constit = "10"
+  intell = "14"
+  will = "14"
+  charisma = "13"
+  Name = "Трион"
+  Type = "Эльф"
+  Dam = "1Д2"
+  Arm = "5"
+  Hef = ""
+  hefm = "40"
+  hit = "20"
+  hitm = "20"
+  sha = "90"
+  mis = "10"
+  inv = "12"
+  spd = "9"
+>
+
+<Ephekti>
+</Ephekti>
+
+<Eqip>
+</Eqip>
+
+<Inventory>
+</Inventory>
+</Hero>
+</Heroes>

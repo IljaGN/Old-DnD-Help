@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Form 
+  Size = "1366x768" 
+>
+	
+<GroupBoxHero
+  Name = "Статы"
+  Font.Name = "Century"
+  Font.Size = "9.75f"
+  Font.Italic = "true"
+  Location = "6x6"
+  Size = "123x191"
+>
+<LD
+  Font.Name = "Century"
+  Font.Size = "12f"
+  Font.Italic = "true"
+  Location = "6x19"
+ >
+  <L Name = "hit, hitm">Жизни: [hit]/[hitm]</L>
+  <L Name = "Dam">Ун: [Dam]</L>
+  <L Name = "sha">Метк: [sha]%</L>
+  <L Name = "mis">Уклон: [mis]%</L>
+  <L Name = "Arm">Броня: [Arm]%</L>
+ </LD>
+</GroupBoxHero>
+
+<GroupBoxOpponent
+  Name = "Статы"
+  Font.Name = "Century"
+  Font.Size = "9.75f"
+  Font.Italic = "true"
+  Location = "6x6"
+  Size = "123x191"
+>
+<LD
+  Font.Name = "Century"
+  Font.Size = "12f"
+  Font.Italic = "true"
+  Location = "6x19"
+ >
+  <L Name = "hit">Жизни:</L>
+  <L Name = "dam">Урон:</L>
+  <L Name = "sha">Метк:</L>
+  <L Name = "arm">Броня:</L>
+  <L Name = "mis">Уклон:</L>
+ </LD>
+</GroupBoxOpponent>
+	
+<GroupBox
+  Name = "Характеристики"
+  Font.Name = "Microsoft Sans Serif"
+  Font.Size = "9f"
+  Font.Italic = "false"
+  Location = "6x203"
+  Size = "123x145"
+>
+<LD
+  Font.Name = "Microsoft Sans Serif"
+  Font.Size = "11.25f"
+  Font.Italic = "false"
+  Location = "6x19"
+/>
+  <L Name = "Power">Сила:</L>
+  <L Name = "Agility">Ловк:</L>
+  <L Name = "Constit">Тело:</L>
+  <L Name = "Intell">Интл:</L>
+  <L Name = "Will">Воля:</L>
+  <L Name = "Charisma">Хрзм:</L>
+</GroupBox>
+	
+<ListBox
+  Font.Name = "Microsoft Sans Serif"
+  Font.Size = "9.75f"
+  Font.Italic = "false"
+  Location = "157x21"
+  Size = "140x196"
+>
+<LD
+  Font.Name = "Century"
+  Font.Size = "9.75f"
+  Font.Italic = "true"
+  Location = "0x0"
+/>
+  <L Location = "154x5">Экипировка</L>
+  <L Location = "154x220">вес:</L>
+</ListBox>
+	
+<ListBox
+  Font.Name = "Microsoft Sans Serif"
+  Font.Size = "9.75f"
+  Font.Italic = "false"
+  Location = "157x21"
+  Size = "140x196"
+>
+<LD
+  Font.Name = "Century"
+  Font.Size = "9.75f"
+  Font.Italic = "true"
+  Location = "0x0"
+/>
+  <L Location = "316x5">Инвентарь</L>
+  <L Location = "316x220">вес:</L>
+</ListBox>
+	
+<ListBox
+  Font.Name = "Microsoft Sans Serif"
+  Font.Size = "9.75f"
+  Font.Italic = "false"
+  Location = "157x260"
+  Size = "156x196"
+>
+<LD
+  Font.Name = "Century"
+  Font.Size = "9.75f"
+  Font.Italic = "true"
+  Location = "254x244"
+/>
+  <L>Эффекты</L>
+</ListBox>
+
+<DataGridHero>
+  <Header Name = "####">true</Header>
+  <Header Name = "Статы">true</Header>
+  <Header Name = "Эффекты">true</Header>
+  <Header Name = "Экипировка">true</Header>
+  <Header Name = "Инвентарь">true</Header>
+  <Row Name = "Имя:">Name</Row>
+  <Row Name = "Расса:">Type</Row>
+  <Row Name = "ЖизМх:">hitm</Row>
+  <Row Name = "Жизни:">hit</Row>
+  <Row Name = "Урон:">Dam</Row>
+  <Row Name = "Метк:">sha</Row>
+  <Row Name = "Броня:">Arm</Row>
+  <Row Name = "Уклн:">mis</Row>
+  <Row Name = "ВесМх:">hefm</Row>
+  <Row Name = "Вес:">Hef</Row>
+  <Row Name = "Иниц:">inv</Row>
+  <Row Name = "Скор:">spd</Row>
+  <Row Name = "Сила:">power</Row>
+  <Row Name = "Ловк:">agility</Row>
+  <Row Name = "Тело:">constit</Row>
+  <Row Name = "Интл:">intell</Row>
+  <Row Name = "Воля:">will</Row>
+  <Row Name = "Хрзм:">charisma</Row>
+</DataGridHero>
+</Form>

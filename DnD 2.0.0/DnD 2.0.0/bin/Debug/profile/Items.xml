@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ITEMS>
+
+<Items Name = "Предметы">
+
+  <Item
+  Name = "пояс с бляхой"
+  Type = "Бижютерия"
+  Specif = "Кольцо как кольцо - ничего особенного"
+  Slot = "Пояс"
+  SltCnt = "1"
+  Staminam = "5"
+  Stamina = "5"
+  Price = "20"
+  Basesharp = "+5"
+  Countm = "100"
+  Count = "1"
+  Heft = "0,1"
+  >
+
+  <Effects>
+  </Effects>
+  </Item>
+
+  <Item
+  Name = "обруч"
+  Type = "Бижютерия"
+  Specif = "Кольцо как кольцо - ничего особенного"
+  Slot = "Голова"
+  SltCnt = "1"
+  Staminam = "5"
+  Stamina = "5"
+  Price = "20"
+  Basesharp = "+5"
+  Countm = "100"
+  Count = "1"
+  Heft = "0,1"
+  >
+  </Item>
+</Items>
+
+<Weapons Name = "Ближний бой">
+
+  <Weapon
+  Name = "железный нож1"
+  Type = "Оружие"
+  Specif = "НЕТ"
+  Slot = "Ладонь"
+  SltCnt = "2"
+  Staminam = "15"
+  Stamina = "15"
+  Price = "20"
+  Basesharp = "+0"
+  Countm = "1"
+  Count = "1"
+  Heft = "1"
+  Damage = "Режущий:2Д4-1&amp;Горячий:+2"
+  Crete = "2"
+  >
+
+  <Effects>
+  </Effects>
+  
+  <Alternative
+  SltCnt = "1"
+  Basesharp = "-15"
+  >
+  </Alternative>
+  </Weapon>
+  
+  <Weapon
+  Name = "железный нож2"
+  Type = "Оружие"
+  Specif = "НЕТ"
+  Slot = "Ладонь"
+  SltCnt = "2"
+  Staminam = "15"
+  Stamina = "15"
+  Price = "20"
+  Basesharp = "+0"
+  Countm = "1"
+  Count = "1"
+  Heft = "1"
+  Damage = "Режущий:2Д6|Режущий:2Д4"
+  Crete = "2"
+  >
+
+  <Effects>
+  </Effects>
+  
+  <Alternative>
+  </Alternative>
+  </Weapon>
+</Weapons>
+
+<WeaponsRange Name = "Дальний бой">
+
+  <Weapon
+  Name = "лук длиный"
+  Type = "Оружие"
+  Specif = "НЕТ"
+  Slot = "Ладонь"
+  SltCnt = "2"
+  Staminam = "8"
+  Stamina = "5"
+  Price = "20"
+  Basesharp = "+5"
+  Countm = "1"
+  Count = "1"
+  Heft = "2"
+  Damage = "Колющий:1Д12"
+  Crete = "2"
+  Range = "20 кл"
+  Ammo = "стрелы"
+  >
+
+  <Effects>
+    <E>стрелок</E>
+  </Effects>
+  
+  <Alternative
+  SltCnt = "1"
+  Basesharp = "-10"
+  Damage = "Колющий:1Д6"
+  >
+  </Alternative>
+  </Weapon>
+</WeaponsRange>
+
+<Armors Name = "Броня">
+
+  <Armor
+  Name = "Щит"
+  Type = "Броня"
+  Specif = "защита"
+  Slot = "Ладонь"
+  Staminam = "30"
+  Stamina = "30"
+  Price = "20"
+  Basesharp = "+5"
+  Countm = "1"
+  Count = "1"
+  Heft = "3"
+  Shield = "Режущий:8/Колющий:10"
+  >
+
+  <Effects>
+  </Effects>
+  </Armor>
+
+  <Armor
+  Name = "Щит большой"
+  Type = "Броня"
+  Specif = "Башенный, Сила > 15, игнор выстрелов более пол диапазона, не критует выстрелами"
+  Slot = "Ладонь"
+  Staminam = "30"
+  Stamina = "30"
+  Price = "20"
+  Basesharp = "+5"
+  Countm = "1"
+  Count = "1"
+  Heft = "13"
+  Shield = "Естеств:3"
+  >
+
+  <Effects>
+  </Effects>
+  </Armor>
+
+  <Armor
+  Name = "Кожаный шлем"
+  Type = "Броня"
+  Specif = "защита вашего кочана"
+  Slot = "Голова"
+  Staminam = "30"
+  Stamina = "30"
+  Price = "20"
+  Basesharp = "+5"
+  Countm = "1"
+  Count = "1"
+  Heft = "1"
+  Shield = "Естеств:2/Термический:8/Режущий:5/Горячий:10"
+  >
+
+  <Effects>
+  </Effects>
+  </Armor>
+</Armors>
+
+</ITEMS>
